@@ -91,9 +91,9 @@ class MyApp extends StatelessWidget {
                       child: Column(
                         children: [
                           Container(
-                            padding: EdgeInsets.all(2),
+                            padding: EdgeInsets.only(left: 10, bottom: 2),
                             decoration: BoxDecoration(
-                                color: Vx.red200,
+                                color: Vx.gray200,
                                 borderRadius: BorderRadius.circular(10),
                                 boxShadow: [
                                   BoxShadow(
@@ -136,9 +136,9 @@ class MyApp extends StatelessWidget {
                         children: [
                           Container(
                             height: 100,
-                            padding: EdgeInsets.all(2),
+                            padding: EdgeInsets.only(left: 10, bottom: 2),
                             decoration: BoxDecoration(
-                                color: Vx.red200,
+                                color: Vx.gray200,
                                 borderRadius: BorderRadius.circular(10),
                                 boxShadow: [
                                   BoxShadow(
@@ -181,9 +181,9 @@ class MyApp extends StatelessWidget {
                       child: Column(
                         children: [
                           Container(
-                            padding: EdgeInsets.all(2),
+                            padding: EdgeInsets.only(left: 10, bottom: 2),
                             decoration: BoxDecoration(
-                                color: Vx.red200,
+                                color: Vx.gray200,
                                 borderRadius: BorderRadius.circular(10),
                                 boxShadow: [
                                   BoxShadow(
